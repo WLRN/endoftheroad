@@ -6,6 +6,9 @@ gem 'rails', '4.0.2'
 # Foundation
 gem 'foundation-rails'
 
+# Add Jekyll for backend
+gem 'bloggy'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
