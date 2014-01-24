@@ -1,5 +1,5 @@
 ## The End of the Road
-## A collaboration between WLRN, The Miami-Herald, and Statwonk
+A collaboration between WLRN, The Miami-Herald, and Statwonk
 
 ## Documentation
 
