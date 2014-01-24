@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[The End of the Road]]></title>
+  <link href="http://statwonk.github.io/endoftheroad/atom.xml" rel="self"/>
+  <link href="http://statwonk.github.io/endoftheroad/"/>
+  <updated>2014-01-24T13:58:20-05:00</updated>
+  <id>http://statwonk.github.io/endoftheroad/</id>
+  <author>
+    <name><![CDATA[WLRN, Miami-Herald, Statwonk]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Test Post]]></title>
+    <link href="http://statwonk.github.io/endoftheroad/blog/2014/01/24/test-post/"/>
+    <updated>2014-01-24T12:10:59-05:00</updated>
+    <id>http://statwonk.github.io/endoftheroad/blog/2014/01/24/test-post</id>
+    <content type="html"><![CDATA[<p>Test post! This is a test post!</p>
+]]></content>
+  </entry>
+  
+</feed>
