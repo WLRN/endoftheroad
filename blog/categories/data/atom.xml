@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[The End of the Road]]></title>
-  <link href="http://statwonk.github.io/endoftheroad/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Data, | The End of the Road]]></title>
+  <link href="http://statwonk.github.io/endoftheroad/blog/categories/data/atom.xml" rel="self"/>
   <link href="http://statwonk.github.io/endoftheroad/"/>
   <updated>2014-01-24T15:04:26-05:00</updated>
   <id>http://statwonk.github.io/endoftheroad/</id>
@@ -27,15 +27,6 @@
 <p>Quisque dignissim lacinia erat ut rutrum. Proin vitae ultricies nunc, non pulvinar nibh. Sed scelerisque, libero at auctor commodo, urna est porttitor leo, sit amet imperdiet odio felis vel leo. Suspendisse iaculis malesuada mi, sit amet tincidunt orci elementum ac. Nunc ut ullamcorper tortor, vitae ultrices velit. Nunc ac molestie lorem. Nullam bibendum blandit est vulputate consectetur. Aenean id erat id lorem congue porttitor et laoreet urna.</p>
 
 <p>Quisque non varius metus. Vestibulum elementum sollicitudin lacus, molestie varius lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur cursus sapien elementum ipsum mattis iaculis. Quisque auctor mauris vel erat cursus posuere. Ut mollis ante sed nunc posuere, euismod cursus augue auctor. Duis quis est vitae neque lacinia fringilla.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Test Post]]></title>
-    <link href="http://statwonk.github.io/endoftheroad/blog/2014/01/24/test-post/"/>
-    <updated>2014-01-24T12:10:59-05:00</updated>
-    <id>http://statwonk.github.io/endoftheroad/blog/2014/01/24/test-post</id>
-    <content type="html"><![CDATA[<p>Test post! This is a test post!</p>
 ]]></content>
   </entry>
   
