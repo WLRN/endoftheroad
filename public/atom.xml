@@ -4,7 +4,7 @@
   <title><![CDATA[The End of the Road]]></title>
   <link href="http://statwonk.github.io/endoftheroad/atom.xml" rel="self"/>
   <link href="http://statwonk.github.io/endoftheroad/"/>
-  <updated>2014-02-10T17:15:52-05:00</updated>
+  <updated>2014-02-10T17:58:18-05:00</updated>
   <id>http://statwonk.github.io/endoftheroad/</id>
   <author>
     <name><![CDATA[WLRN, Miami-Herald, Statwonk]]></name>
@@ -124,97 +124,6 @@ This is what it looks like, arming for 21st Century suburban warfare. Speed, org
 <p><strong>9:00 a.m.:</strong> The commuter pulls into a parking spot. With a satisfying click she turns the engine off. “Sweetest sound in the world,” she says, sliding the keys free of the ignition.</p>
 
 <p>And today’s only Monday.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[I-95 Toll Calculator]]></title>
-    <link href="http://statwonk.github.io/endoftheroad/blog/2014/01/25/i-95-toll-calculator/"/>
-    <updated>2014-01-25T14:07:45-05:00</updated>
-    <id>http://statwonk.github.io/endoftheroad/blog/2014/01/25/i-95-toll-calculator</id>
-    <content type="html"><![CDATA[<div id="graph"></div>
-
-
-
-
-
-
-<script src="http://d3js.org/d3.v3.min.js"></script>
-
-
-<script src="http://d3js.org/topojson.v1.min.js"></script>
-
-
-<script>
-
-var width = 960,
-    height = 700;
-
-var projection = d3.geo.mercator()
-    .center([-80.166078, 25.974095])
-    .scale(6193)
-    .translate([480, 350])
-    .precision(0);
-
-var path = d3.geo.path()
-    .projection(projection);
-
-var svg = d3.select("#graph").append("svg")
-    .attr("width", width)
-    .attr("height", height);
-
-d3.json("images/i95_data.json", function(error, d) {
-  var tracts = ny.objects.tracts;
-
-  // strip water counties
-  tracts.geometries = tracts.geometries
-    .filter(function(d) { return (d.id / 10000 | 0) !== 99; });
-
-  svg.append("g")
-    .selectAll("path")
-      .data(topojson.feature(ny, tracts).features)
-    .enter().append("path")
-      .attr("class", "tract")
-      .attr("d", path)
-    .append("title")
-      .text(function(d, i) { return d.id; });
-
-  svg.append("path")
-      .attr("class", "tract-border")
-      .datum(topojson.mesh(ny, tracts, function(a, b) { return a !== b; }))
-      .attr("d", path);
-});
-
-d3.select(self.frameElement).style("height", height + "px");
-
-</script>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[This Is Another Test Post About I-95]]></title>
-    <link href="http://statwonk.github.io/endoftheroad/blog/2014/01/24/this-is-another-test-post-about-i-95/"/>
-    <updated>2014-01-24T15:02:59-05:00</updated>
-    <id>http://statwonk.github.io/endoftheroad/blog/2014/01/24/this-is-another-test-post-about-i-95</id>
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus in velit vulputate tincidunt. Suspendisse pellentesque mi ut neque porttitor ultrices. Fusce ullamcorper, massa eu interdum bibendum, velit enim suscipit arcu, non scelerisque sapien urna et purus. Nulla id nisi velit. Proin tincidunt, urna pulvinar elementum egestas, enim ipsum pharetra nulla, quis congue justo odio eget eros. Curabitur ornare leo tortor. Aliquam vehicula mi mi, nec egestas ante vulputate id. Nullam cursus neque a justo gravida blandit.</p>
-
-<p>Sed volutpat nibh nec consectetur tempus. Mauris pulvinar purus sit amet dolor iaculis semper. Donec suscipit et sem sit amet pretium. Nulla massa orci, feugiat vitae consectetur at, hendrerit in massa. Vivamus mauris neque, volutpat nec egestas non, pellentesque et urna. Morbi interdum velit fermentum, molestie augue vel, dictum metus. Aliquam vehicula egestas malesuada.</p>
-
-<p>Aliquam rutrum eu lacus id dapibus. Duis quis ligula pharetra, euismod magna sed, imperdiet massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eget gravida ante, eu rhoncus risus. Etiam interdum volutpat orci, in pharetra mi tristique eget. Donec et suscipit elit. Aliquam erat volutpat. Integer commodo neque vel ipsum placerat, vitae interdum tortor ultricies. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus massa risus, fermentum non dui ut, accumsan pharetra massa. Nam arcu nunc, commodo adipiscing interdum vel, pretium sed tellus. Fusce gravida dui purus, et commodo quam malesuada a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus aliquet condimentum eros, nec condimentum leo convallis at.</p>
-
-<p>Quisque dignissim lacinia erat ut rutrum. Proin vitae ultricies nunc, non pulvinar nibh. Sed scelerisque, libero at auctor commodo, urna est porttitor leo, sit amet imperdiet odio felis vel leo. Suspendisse iaculis malesuada mi, sit amet tincidunt orci elementum ac. Nunc ut ullamcorper tortor, vitae ultrices velit. Nunc ac molestie lorem. Nullam bibendum blandit est vulputate consectetur. Aenean id erat id lorem congue porttitor et laoreet urna.</p>
-
-<p>Quisque non varius metus. Vestibulum elementum sollicitudin lacus, molestie varius lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur cursus sapien elementum ipsum mattis iaculis. Quisque auctor mauris vel erat cursus posuere. Ut mollis ante sed nunc posuere, euismod cursus augue auctor. Duis quis est vitae neque lacinia fringilla.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Test Post]]></title>
-    <link href="http://statwonk.github.io/endoftheroad/blog/2014/01/24/test-post/"/>
-    <updated>2014-01-24T12:10:59-05:00</updated>
-    <id>http://statwonk.github.io/endoftheroad/blog/2014/01/24/test-post</id>
-    <content type="html"><![CDATA[<p>Test post! This is a test post!</p>
 ]]></content>
   </entry>
   
