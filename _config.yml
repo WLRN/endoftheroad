@@ -1,6 +1,11 @@
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
+
+safe: true
+lsi: false
+
+
 url: http://statwonk.github.io/endoftheroad
 title: The End of the Road
 subtitle: public analysis of interstate 95
@@ -25,7 +30,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /endoftheroad
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
@@ -38,7 +43,7 @@ rdiscount:
     - autolink
     - footnotes
     - smart
-pygments: false # default python pygments have been replaced by pygments.rb
+pygments: false: # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
