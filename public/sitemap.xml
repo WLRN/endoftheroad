@@ -1,19 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/blog/2014/01/24/test-post/</loc>
-        <lastmod>2014-01-24T12:47:41-05:00</lastmod>
+        <loc>http://statwonk.github.io/endoftheroad/blog/2014/01/24/test-post/</loc>
+        <lastmod>2014-01-24T15:18:46-05:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2014-01-24T12:20:32-05:00</lastmod>
+        <loc>
+            http://statwonk.github.io/endoftheroad/blog/2014/01/24/this-is-another-test-post-about-i-95/
+        </loc>
+        <lastmod>2014-01-24T15:24:21-05:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
-        <lastmod>2014-01-24T12:20:32-05:00</lastmod>
+        <loc>http://statwonk.github.io/endoftheroad/blog/2014/01/25/i-95-toll-calculator/</loc>
+        <lastmod>2014-01-25T17:57:16-05:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/robots.txt</loc>
-        <lastmod>2014-01-24T12:05:07-05:00</lastmod>
+        <loc>http://statwonk.github.io/endoftheroad/blog/2014/02/10/the-commuter-a-diary/</loc>
+        <lastmod>2014-02-10T17:15:47-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://statwonk.github.io/endoftheroad/blog/2014/02/10/snowbirding-on-i-95/</loc>
+        <lastmod>2014-02-10T17:15:09-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://statwonk.github.io/endoftheroad/blog/2014/02/10/whats-the-craziest-thing-youve-seen-on-i-95/
+        </loc>
+        <lastmod>2014-02-10T17:14:18-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://statwonk.github.io/endoftheroad/about/</loc>
+        <lastmod>2014-02-10T16:58:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://statwonk.github.io/endoftheroad/blog/archives/</loc>
+        <lastmod>2014-02-10T17:15:47-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://statwonk.github.io/endoftheroad/</loc>
+        <lastmod>2014-02-10T17:15:47-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://statwonk.github.io/endoftheroad/robots.txt</loc>
+        <lastmod>2014-01-24T15:18:46-05:00</lastmod>
     </url>
 </urlset>

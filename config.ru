@@ -7,6 +7,7 @@ $root = ::File.dirname(__FILE__)
 class SinatraStaticServer < Sinatra::Base
 
   get(/.+/) do
+    response.headers["Access-Control-Allow-Origin"] = "*"
     send_sinatra_file(request.path) {404}
   end
 
