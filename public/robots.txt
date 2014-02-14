@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://statwonk.github.io/endoftheroad/sitemap.xml 

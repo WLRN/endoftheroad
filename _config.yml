@@ -2,11 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: "http://statwonk.github.io/endoftheroad"
-baseurl: "endoftheroad/"
-title: The End of the Road
-subtitle: public analysis of interstate 95
-author: WLRN, Miami-Herald, Statwonk
+url: http://yoursite.com
+title: My Octopress Blog
+subtitle: A blogging framework for hackers.
+author: Your Name
 simple_search: http://google.com/search
 description:
 
@@ -27,7 +26,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /endoftheroad
+root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
@@ -40,9 +39,10 @@ rdiscount:
     - autolink
     - footnotes
     - smart
+pygments: false # default python pygments have been replaced by pygments.rb
 
-# paginate: 10          # Posts per page on the blog index
-# pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
+paginate: 10          # Posts per page on the blog index
+pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
@@ -90,8 +90,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: endoftheroad95
-disqus_show_comment_count: true
+disqus_short_name:
+disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id:
