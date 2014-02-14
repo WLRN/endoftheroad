@@ -13,7 +13,7 @@ categories:
 **7:17 a.m.:** The commuter sets a kitchen timer for 13 minutes. “Okay, countdown,” she says. “T-minus…” 
 
 She slurps down a cup of coffee, looks wistfully at the carafe and says, “I never get around to that second cup.”
-
+<!-- more -->
 {% img center http://i.imgur.com/wY8kGfV.jpg %}
 
 She knows her priorities: Gas tank? Topped off last night. Lunch? Packed. Dinner? Also packed. (“I don’t know what it’s like to have dinner in my own house.”) 

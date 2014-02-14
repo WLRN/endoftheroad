@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://wlrnendoftheroad.org
+title: End of the Road
+subtitle: A public analysis of Interstate 95
+author: Kenny Malone & Christopher Peters
 simple_search: http://google.com/search
 description:
 

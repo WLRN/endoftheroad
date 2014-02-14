@@ -9,7 +9,7 @@ categories:
 {% img center https://docs.google.com/a/miamiherald.com/spreadsheet/oimg?key=0AvRZhb8YZi9WdHJlX3pWMmZYaUhhcWFZR0loRV9RWEE&oid=2&zx=95uxkn1k0t9c %}
 
 Snowbirding is an unavoidable pastime for year-round South Floridians. The more anecdotal leading indicators, of course, include a rise in out-of-state license plates, a disproportionate number of sunburns, a baffling spike in people asking the way to South Beach when they’re already on South Beach. (I’m partial to socks with sandals as the true bellwether.)
-
+<!-- more -->
 It turns out the data being reported as part of the 95 Express Project probably does a better job spotting those population spikes. The graph above shows the average weekday traffic on Miami-Dade’s stretch of I-95.
 Over the last few years, three of the four most heavily trafficked months were March. While these numbers are just for Miami-Dade, the pattern apparently holds in Broward as well. 
 
