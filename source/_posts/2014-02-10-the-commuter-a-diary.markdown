@@ -8,13 +8,13 @@ categories:
 - commuting
 ---
 
-{% img center https://31.media.tumblr.com/04cd274cebf5cfd23d834a2f0c9ee787/tumblr_inline_mzbl3zS8lc1rrvu4q.jpg %}
+{% img center  http://i.imgur.com/PgYaqbs.jpg %}
 
 **7:17 a.m.:** The commuter sets a kitchen timer for 13 minutes. “Okay, countdown,” she says. “T-minus…” 
 
 She slurps down a cup of coffee, looks wistfully at the carafe and says, “I never get around to that second cup.”
 
-{% img center https://31.media.tumblr.com/8f34e3564251107f9571946b72ec4213/tumblr_inline_mzbl4jxctK1rrvu4q.jpg% %}
+{% img center http://i.imgur.com/wY8kGfV.jpg %}
 
 She knows her priorities: Gas tank? Topped off last night. Lunch? Packed. Dinner? Also packed. (“I don’t know what it’s like to have dinner in my own house.”) 
 This is what it looks like, arming for 21st Century suburban warfare. Speed, organization and provisions in the name of a single goal: to get from Atlantic Boulevard in Broward County to Downtown Miami by 9:30 a.m. via Interstate 95. 

@@ -3,6 +3,7 @@
 # ----------------------- #
 
 url: "http://statwonk.github.io/endoftheroad"
+baseurl: "endoftheroad/"
 title: The End of the Road
 subtitle: public analysis of interstate 95
 author: WLRN, Miami-Herald, Statwonk
