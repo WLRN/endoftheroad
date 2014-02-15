@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I-95's NARROW SHOULDERS AND SPEEDING CARS PROBLEMATIC FOR FHP
+title: I-95's narrow shoulders and speeding cars problematic for Florida Highway Patrol
 author: Kenny Malone
 date: 2014-02-15 08:59:32 -0500
 comments: true
