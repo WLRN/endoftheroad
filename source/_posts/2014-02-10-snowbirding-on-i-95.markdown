@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Snowbirding on I-95"
+author: Kenny Malone
 date: 2014-02-10 17:08:51 -0500
 comments: true
 categories: 

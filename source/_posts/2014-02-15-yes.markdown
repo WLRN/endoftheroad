@@ -1,0 +1,30 @@
+---
+layout: post
+title: YES, PEOPLE DO GET PULLED OVER AND/OR WHY @EVANBENN OWES US
+author: Kenny Malone
+date: 2014-02-15 10:46:12 -0500
+comments: true
+categories: 
+---
+{% img center http://i.imgur.com/hi3p8Sl.jpg %}
+
+Yesterday we explained how the Florida Highway Patrol has been getting flooded by complaints of [unchecked speed in the 95 Express lanes](/blog/2014/02/15/i-95-s-narrow-shoulders-and-speeding-cars-problematic-for-fhp/). (The story also ran in the [Miami Herald](http://www.miamiherald.com/2014/02/02/3909543/fhp-95-express-has-a-speeding.html) and on WLRN.)
+<!-- more -->
+In case there was any doubt that traffic stops occur, we present the case of Evan Benn.
+
+Benn, the Miami Herald’s new economy reporter, tweeted us the following confession today:
+
+{% blockquote %}
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/RadioMalone">@radiomalone</a> I&#39;m a jerk. Thought your story gave carte blanche to 95 Express speed. Got stopped. 74 in 55. Cited story. Got off w warning.</p>&mdash; Evan Benn (@EvanBenn) <a href="https://twitter.com/EvanBenn/statuses/430764941872992256">February 4, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% endblockquote %}
+
+In the story Benn’s referring to, an FHP spokesman told us that the narrow shoulder inside the express-lanes has made enforcement difficult at best. There are but a handful of places wide enough to make a traffic stop within the actual express-lanes.
+
+Benn told the motorcycle trooper who pulled him over that he was ashamed because he’d just read a “story about how dangerous those lanes are to patrol.”
+The trooper, who apparently had also seen the story, let Benn off with a warning.
+
+While leaving readers more informed is, of course, reward enough for The End of the Road project, it’s worth pointing out that a ticket for going 19 MPH over the speed limit would have cost Evan Benn [$269 in Miami-Dade County](http://www.miami-dadeclerk.com/service_fee_schedule.asp#traffic). Certainly he could afford to buy us a well-reviewed beer or two for being so informative.
+
+In addition to his staff job at the Miami Herald Evan Benn is a beer columnist for Esquire.com. He is author of the book “Brew in the Lou: St. Louis’ Beer Culture, Past, Present & Future.” Tell us about your life at The End of the Road by using  #WLRN95.
+

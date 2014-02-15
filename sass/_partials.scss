@@ -6,3 +6,23 @@
 // @import "partials/archive";
 // @import "partials/sidebar";
 // @import "partials/footer";
+
+img, video, .flash-video, .caption-wrapper {
+ @extend .flex-content;
+    @extend .basic-alignment;
+       @include shadow-box;
+	 &.caption {
+	 @include reset-shadow-box;
+   }
+}
+.caption-wrapper {
+ display: inline-block;
+ margin-bottom: 10px;
+ .caption-text {
+   background: #fff;
+   text-align: center;
+   font-size: .8em;
+   color: #666;
+   display: block;
+ }
+}

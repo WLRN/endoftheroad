@@ -3,3 +3,7 @@
 // @import "base/theme";
 // @import "base/typography";
 // @import "base/layout";
+
+@mixin reset-shadow-box() {
+  @include shadow-box(0px, 0px, 0px);
+}

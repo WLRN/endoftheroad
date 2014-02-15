@@ -1,33 +1,73 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://wlrnendoftheroad.org/blog/2014/02/10/the-commuter-a-diary/</loc>
+        <loc>http://yoursite.com/blog/2014/02/10/the-commuter-a-diary/</loc>
         <lastmod>2014-02-14T17:29:00-05:00</lastmod>
     </url>
     <url>
-        <loc>http://wlrnendoftheroad.org/blog/2014/02/10/snowbirding-on-i-95/</loc>
-        <lastmod>2014-02-14T17:29:00-05:00</lastmod>
+        <loc>http://yoursite.com/blog/2014/02/10/snowbirding-on-i-95/</loc>
+        <lastmod>2014-02-15T11:35:55-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wlrnendoftheroad.org/blog/2014/02/10/whats-the-craziest-thing-youve-seen-on-i-95/
+            http://yoursite.com/blog/2014/02/10/whats-the-craziest-thing-youve-seen-on-i-95/
         </loc>
-        <lastmod>2014-02-14T17:29:00-05:00</lastmod>
+        <lastmod>2014-02-15T11:35:39-05:00</lastmod>
     </url>
     <url>
-        <loc>http://wlrnendoftheroad.org/about/</loc>
+        <loc>http://yoursite.com/blog/2014/02/14/florida-has-a-bipartisan-need-for-speed/</loc>
+        <lastmod>2014-02-15T11:35:07-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://yoursite.com/blog/2014/02/15/bus-is-the-new-train-at-least-the-affordable-one/
+        </loc>
+        <lastmod>2014-02-15T11:34:33-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://yoursite.com/blog/2014/02/15/an-explaination-of-i-95-s-m-bridge-to-nowhere/
+        </loc>
+        <lastmod>2014-02-15T11:34:19-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://yoursite.com/blog/2014/02/15/broward-to-dade-among-most-popular-commutes-in-u-dot-s/
+        </loc>
+        <lastmod>2014-02-15T11:34:04-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/blog/2014/02/15/i-95-has-a-speed-limit/</loc>
+        <lastmod>2014-02-15T11:37:29-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://yoursite.com/blog/2014/02/15/i-95-s-narrow-shoulders-and-speeding-cars-problematic-for-fhp/
+        </loc>
+        <lastmod>2014-02-15T11:33:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/blog/2014/02/15/yes/</loc>
+        <lastmod>2014-02-15T11:33:14-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/blog/2014/02/15/road-songs-with-a-twist/</loc>
+        <lastmod>2014-02-15T11:32:54-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/about/</loc>
         <lastmod>2014-02-14T16:28:28-05:00</lastmod>
     </url>
     <url>
-        <loc>http://wlrnendoftheroad.org/blog/archives/</loc>
-        <lastmod>2014-02-14T16:49:33-05:00</lastmod>
+        <loc>http://yoursite.com/blog/archives/</loc>
+        <lastmod>2014-02-15T11:37:29-05:00</lastmod>
     </url>
     <url>
-        <loc>http://wlrnendoftheroad.org/</loc>
-        <lastmod>2014-02-14T16:49:33-05:00</lastmod>
+        <loc>http://yoursite.com/</loc>
+        <lastmod>2014-02-15T11:37:29-05:00</lastmod>
     </url>
     <url>
-        <loc>http://wlrnendoftheroad.org/robots.txt</loc>
+        <loc>http://yoursite.com/robots.txt</loc>
         <lastmod>2014-02-14T16:23:06-05:00</lastmod>
     </url>
 </urlset>
