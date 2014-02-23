@@ -30,7 +30,7 @@ layout: default
     {% endfor %}
   </div>
   <div class="row">
-    {% for post in paginator.posts offset: 6 limit: 4 %}
+    {% for post in paginator.posts offset: 6 limit: 3 %}
     {% unless post.categories contains 'feature' %}
       <div class="small-12 medium-4 columns">
       {% assign content = post.content %}

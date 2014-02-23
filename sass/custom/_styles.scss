@@ -7,6 +7,11 @@ h1.entry-title {
   font-weight:600;
 }
 
+h1.feature {
+  font-size:1.75rem;
+  font-weight:800;
+}
+
 .row {
   max-width: 85rem;
 }
@@ -27,7 +32,7 @@ $total-columns: 12 ;
 .box {
   background: #fff;
   border:1px solid #c0c6ca;
-  border-radius:4px;
+  border-radius:20px;
   margin: 0px 10px 20px 0px;
   padding: 15px;
   position: relative;
