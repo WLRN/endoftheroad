@@ -14,3 +14,13 @@ h1.entry-title {
 $row-width: rem-calc(1000);
 $column-gutter: rem-calc(30);
 $total-columns: 12 ;
+
+.shadow {
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}

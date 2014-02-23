@@ -4,15 +4,16 @@ title: I-95's narrow shoulders and speeding cars problematic for Florida Highway
 author: Kenny Malone
 date: 2014-02-15 08:59:32 -0500
 comments: true
-categories: 
+categories: feature
 ---
 
 The 95 Express Project has gotten traffic moving. But maybe too well?
-<!-- more -->
-<iframe frameborder="no" height="300"style="padding-left:0px" scrolling="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2+from+1ZgwbXW-yrTbbHw7o0OjNgWTSIaWOQ9UT3MV-owk+order+by+col0+asc&amp;viz=GVIZ&amp;t=AREA&amp;rmax=250&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=800&amp;height=300" width="800"></iframe>
+
+<iframe frameborder="no" height="300" style="margin-right:10px;" scrolling="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2+from+1ZgwbXW-yrTbbHw7o0OjNgWTSIaWOQ9UT3MV-owk+order+by+col0+asc&amp;viz=GVIZ&amp;t=AREA&amp;rmax=250&amp;uiversion=1&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=false&amp;width=550&amp;height=250" width="600" height="500"></iframe>
 
 ABOVE: An hour-by-hour graph of the average weekday speed of traffic in the southbound I-95 express and general purpose lanes.
 
+<!--more-->
 Trooper Joe Sanchez has a problem with the 95 Express lanes. Going about 60 MPH in the express lanes, he pulls his Florida Highway Patrol SUV within inches of the median and comes to a full stop. He’s technically on the 95 Express shoulder.
 
 "See? Can you get out there?" he asks as traffic zips past the passenger window. Sanchez, the spokesman for the FHP in Miami-Dade County, sounds like he’s at his wit’s end. "You’re just about in the lane, so you cannot make a traffic stop here. You’d be putting your life in danger and you’d be putting the lives of the motorists in danger.”
@@ -52,7 +53,7 @@ In response to the volume of complaints, FHP will be deploying “Operation I-95
 
 BELOW: An hour-by-hour graph of the average weekday speed of traffic in the northbound I-95 express and general purpose lanes.
 
-<iframe frameborder="no" height="300" scrolling="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2+from+1AtJbWuR0dsPW6D99sen1LVz-OWXkGjsFmi-UQrw+order+by+col0+asc&amp;viz=GVIZ&amp;t=AREA&amp;rmax=250&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=800&amp;height=300" width="800"></iframe>
+<iframe frameborder="no" height="300" scrolling="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2+from+1AtJbWuR0dsPW6D99sen1LVz-OWXkGjsFmi-UQrw+order+by+col0+asc&amp;viz=GVIZ&amp;t=AREA&amp;rmax=250&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=false&amp;width=800&amp;height=300" width="800"></iframe>
 
 “If you look at any expressway right now, you will find out that most of the time [drivers] will be above the speed limit,” says Rory Santana, an FDOT engineer who oversees the 95 Express Project. “So it’s not really a 95 Express or an I-95 issue.”
 

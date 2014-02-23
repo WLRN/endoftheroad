@@ -1,0 +1,13 @@
+<section>
+  <h1 class="feature"></h1>
+    {% for post in site.posts %}
+    {% if post.categories contains 'feature' %}
+    <div class="shadow">
+    <h1><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+    {% assign content = post.content %}
+      {{ content | excerpt }}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>
