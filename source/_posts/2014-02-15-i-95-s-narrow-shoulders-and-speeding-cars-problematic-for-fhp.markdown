@@ -9,7 +9,7 @@ categories: feature
 
 The 95 Express Project has gotten traffic moving. But maybe too well?
 
-<iframe frameborder="no" height="300" style="margin-right:10px;" scrolling="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2+from+1ZgwbXW-yrTbbHw7o0OjNgWTSIaWOQ9UT3MV-owk+order+by+col0+asc&amp;viz=GVIZ&amp;t=AREA&amp;rmax=250&amp;uiversion=1&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=false&amp;width=550&amp;height=250" width="600" height="500"></iframe>
+<iframe frameborder="no" height="300" style="margin-right:10px;" scrolling="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2+from+1ZgwbXW-yrTbbHw7o0OjNgWTSIaWOQ9UT3MV-owk+order+by+col0+asc&amp;viz=GVIZ&amp;t=AREA&amp;rmax=250&amp;uiversion=1&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=false&amp;width=600&amp;height=250" width="700" height="500"></iframe>
 
 ABOVE: An hour-by-hour graph of the average weekday speed of traffic in the southbound I-95 express and general purpose lanes.
 

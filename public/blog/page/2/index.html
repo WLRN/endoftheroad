@@ -26,13 +26,16 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-    <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <script src="/javascripts/foundation.js" type="text/javascript"></script>
-  <script src="/javascripts/d3.min.js" type="text/javascript"></script>
+  <script src="/javascripts/rssclient.js" type="text/javascript"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+<script src="/javascripts/foundation.js" type="text/javascript"></script>
+<script src="/javascripts/d3.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.flips.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.jfeed.latestnews.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.jfeed.pack.js" type="text/javascript"></script>
 
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
   
 
@@ -80,7 +83,7 @@
 
 
   <div id="main">
-    <div id="content">
+    <div id="content" class="row">
         <div class="large-6 columns end">
       
 	<section>
@@ -95,7 +98,7 @@
     
       <p>The 95 Express Project has gotten traffic moving. But maybe too well?</p>
 
-<iframe frameborder="no" height="300" style="margin-right:10px;" scrolling="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2+from+1ZgwbXW-yrTbbHw7o0OjNgWTSIaWOQ9UT3MV-owk+order+by+col0+asc&amp;viz=GVIZ&amp;t=AREA&amp;rmax=250&amp;uiversion=1&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=false&amp;width=550&amp;height=250" width="600" height="500"></iframe>
+<iframe frameborder="no" height="300" style="margin-right:10px;" scrolling="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1%2C+col2+from+1ZgwbXW-yrTbbHw7o0OjNgWTSIaWOQ9UT3MV-owk+order+by+col0+asc&amp;viz=GVIZ&amp;t=AREA&amp;rmax=250&amp;uiversion=1&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=false&amp;width=600&amp;height=250" width="700" height="500"></iframe>
 
 
 <p>ABOVE: An hour-by-hour graph of the average weekday speed of traffic in the southbound I-95 express and general purpose lanes.</p>
@@ -122,19 +125,47 @@
     
   </ul>
 </section>
+<div id="widget"></div>
+<script type="text/javascript">
+simpleAJAXLib = {
+      init: function () {
+	  this.fetchJSON('http://www.wlrn.org/rss.xml');
+      },
+
+      fetchJSON: function (url) {
+	  var root = 'https://query.yahooapis.com/v1/public/yql?q=';
+	  var yql = 'select * from xml where url="' + url + '"';
+	  var proxy_url = root + encodeURIComponent(yql) + '&format=json&diagnostics=false&callback=simpleAJAXLib.display';
+	  document.getElementsByTagName('body')[0].appendChild(this.jsTag(proxy_url));
+      },
+
+      jsTag: function (url) {
+	  var script = document.createElement('script');
+	  script.setAttribute('type', 'text/javascript');
+	  script.setAttribute('src', url);
+	  return script;
+      },
+
+      display: function (results) {
+	  // do the necessary stuff
+        return JSON.stringify(results.query.results);
+      }
+  }
+var tmp = simpleAJAXLib.init();
+</script>
 
       
   </div>
   <div class="row">
-  
-  
-  
-    <div class="medium-6 large-3 columns">
     
+    
+    
+      <div class="medium-6 large-3 columns">
       
+	
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/02/10/the-commuter-a-diary/">The Commuter: A Diary</a></h1>
+      <h2 class="entry-title"><a href="/blog/2014/02/10/the-commuter-a-diary/">The Commuter: A Diary</a></h2>
     
     
     <span style="font-weight:400">
@@ -177,9 +208,9 @@
   
 
 
-    </div>
-  
-  
+      </div>
+    
+    
   </div>
   <div class="row">
     
