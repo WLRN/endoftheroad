@@ -5,4 +5,10 @@
 {% else %}
   {% assign author = site.author %}
 {% endif %}
-{% if author %}<span style="font-style:italic;"> By {{ author }}</span>{% endif %}
+{% if author %}
+  {% if author == 'Kenny Malone' %}
+  <span style="font-style:italic;"> By <a href="{{ root }}/kenny-malone/">{{ author }}</a></span>
+  {% else %}
+  <span style="font-style:italic;"> By <a href="{{ root }}/christopher-peters/">{{ author }}</a></span>
+  {% endif %}
+{% endif %}
