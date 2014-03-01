@@ -48,3 +48,9 @@ $total-columns: 12 ;
 .to-flips .flipnav .btn-right,
 .to-flips .flipnav .btn-left-dis, .btn-right-dis {width: 20px; height: 20px; background: #ccc; color: #fff; float: left; font-size: 16px; text-align: center; cursor: pointer;}
 .to-flips .flipnav .btn-left-dis, .to-flips .flipnav .btn-right-dis {color: #fff; background: #fff; cursor: default;}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size:1.2em;
+  }
+}
