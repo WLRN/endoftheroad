@@ -6,7 +6,7 @@
       <h2 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h2>
     {% endif %}
     {% unless page.meta == false %}
-    <span style="font-weight:400">{% include post/author.html %}</span><span style="font-weight:200">{% include post/date.html %}{{ time }}</span>
+    <h3>{% include post/author.html %}<span style="font-weight:100">{% include post/date.html %}{{ time }}</span></h3>
       <p class="meta">
         {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
            | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
@@ -21,7 +21,7 @@
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
   {% if excerpted == 'true' %}
     <footer>
-      <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+      <a rel="full-article" href="{{ root_url }}{{ post.url }}" style="color:#000000;font-weight:800;">{{ site.excerpt_link }}</a>
     </footer>
     <hr>
   {% endif %}

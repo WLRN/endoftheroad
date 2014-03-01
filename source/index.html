@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+  <div class="row"> 
   <div class="large-6 columns end">
       {% if site.blog_index_asides.size %}
 	{% include_array blog_index_asides %}
@@ -8,9 +9,8 @@ layout: default
 	{% include_array default_asides %}
       {% endif %}
   </div>
-  <div class="row">
     {% assign index = true %}
-    {% for post in paginator.posts limit: 2 %}
+    {% for post in paginator.posts limit: 3 %}
     {% unless post.categories contains 'feature' %}
       <div class="medium-6 large-3 columns">
       {% assign content = post.content %}
@@ -20,7 +20,7 @@ layout: default
     {% endfor %}
   </div>
   <div class="row">
-    {% for post in paginator.posts offset: 2 limit: 4 %}
+    {% for post in paginator.posts offset: 3 limit: 3 %}
     {% unless post.categories contains 'feature' %}
       <div class="small-12 medium-4 columns">
       {% assign content = post.content %}
