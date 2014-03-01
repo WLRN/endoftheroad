@@ -10,8 +10,7 @@ categories:
 
 The classic American road song gets (at least) the PG-13 treatment when it's about I-95.
 
-{% img center http://i.imgur.com/Ao3gZfa.jpg %}
-<h6>ABOVE:</h6> One of the 1,000 vinyl copies originally made of August Campbell's 'The I-95 Song.' (Photo by Kenny Malone. Record courtesy of Kathy Heinly)
+{% imgcap center http://i.imgur.com/Ao3gZfa.jpg One of the 1,000 vinyl copies originally made of August Campbell's 'The I-95 Song.' Photo by Kenny Malone. Record courtesy of Kathy Heinly %}
 
 <!-- more -->
 
