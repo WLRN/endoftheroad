@@ -14,13 +14,13 @@ categories: feature
 "Lexus lanes" may have been too cheap for Miami. Saturday morning, South Florida drivers trade in for "Lamborghini lanes."
 
 The maximum possible toll on the 95 Express lanes increased from $7.00 to $10.50 — the mininum has doubled to 50 cents — in response to record numbers of motorists forking over what was thought to be a discouragingly high amount of money.
-<!--more-->
+
 “That day you paid seven bucks, we were trying to get you not to go there,” said Rory Santana, who oversees Miami-Dade County’s stretch of 95 Express for the Florida Department of Transportation.
 
 Indeed, the goal of the 95 Express’ dynamic tolling increase is simple: keep the fast lanes fast by limiting the number of motorists. That glowing toll amount has nothing to do with how good or how bad traffic is in the non-express lanes.
 
 “If [the toll’s] seven dollars and everybody piles in [the express lanes],” said Santana, “we lost our opportunity to try and keep the spaces between the vehicles there and keep the speed up and keep the flow going... And if it breaks down, the general purpose lanes breaks down.”
-
+<!--more-->
 FDOT numbers show that the express lanes, of late, have failed to provide a reliably free-flowing trip during peak traffic hours, most notably the 4-7 p.m. northbound trip.
 
 Part of the problem appears to be a phenomenon documented on Minnesota’s MnPASS system, after which 95 Express is modeled. Engineers found that, up to a point, drivers are actually drawn to higher tolls.
