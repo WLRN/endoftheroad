@@ -1,9 +1,9 @@
-<h1>WLRN News</h1> 
+<h1 style="font-size:2.75rem;">WLRN News</h1> 
 <div id="rss-styled" class="well"></div>
 <script type="text/javascript">
   $("#rss-styled").rss("http://wlrn.org/feeds/term/61/rss.xml",
     {
-      limit: 6,
+      limit: 5,
       layoutTemplate: '<dl class="dl-horizontal">{entries}</dl>',
       entryTemplate: '<dt><a href="{url}">{title}</a></dt><dd>{author}</dd>'
       }).show();
