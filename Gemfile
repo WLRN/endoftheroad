@@ -18,4 +18,5 @@ group :development do
   gem 'fastimage', '~> 1.5.0'
 end
 
+gem 'zurb-foundation'
 gem 'sinatra', '~> 1.4.2'

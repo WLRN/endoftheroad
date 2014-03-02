@@ -6,6 +6,8 @@ comments: true
 sharing: true
 footer: true
 ---
+{% include custom/asides/gravatar.html %}
+
 
 Christopher Peters is a data scientist at [Treehouse](http://teamtreehouse.com), a company whose mission it is to help all people empower themselves by learning to program.
 

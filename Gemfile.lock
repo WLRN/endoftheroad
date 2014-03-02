@@ -47,6 +47,8 @@ GEM
     stringex (1.4.0)
     tilt (1.4.1)
     yajl-ruby (1.1.0)
+    zurb-foundation (4.3.2)
+      sass (>= 3.2.0)
 
 PLATFORMS
   ruby
@@ -68,3 +70,4 @@ DEPENDENCIES
   sass-globbing (~> 1.0.0)
   sinatra (~> 1.4.2)
   stringex (~> 1.4.0)
+  zurb-foundation

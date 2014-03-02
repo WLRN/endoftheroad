@@ -10,9 +10,9 @@ categories:
 {% img center http://i.imgur.com/1qXeaRi.jpg %}
 
 I spent last Thursday, in the thick of afternoon rush hour, at the I-95 on-ramp just southwest of the Arsht Center. At around 4:30 p.m., the scene is one-half auto show, one-half salmon-spawning.
-<!-- more -->
-I walked from open window to open window hoping to confirm something I’ve always suspected: People don’t really know what the speed limit is on I-95. Even the people seconds away from driving on it.
 
+I walked from open window to open window hoping to confirm something I’ve always suspected: People don’t really know what the speed limit is on I-95. Even the people seconds away from driving on it.
+<!-- more -->
 In my completely unscientific survey, one driver answered 45 MPH. Two guessed 55 MPH. Two more said 65 MPH. And one young woman in a silver Audi most confidently responded: “75 MPH. Am I right?”
 
 "You’re pretty far off," I told her.
