@@ -7,12 +7,14 @@ author: Kenny Malone
 categories: feature 
 ---
 
-{% imgcap center http://i.imgur.com/8857mM3.jpg I-95 Express Lane %}
+<div class="large-8 large-centered columns">
+  {% imgcap center http://i.imgur.com/8857mM3.jpg I-95 Express Lane %}
+</div>
 
-“Lexus lanes” may have been too cheap for Miami. Saturday morning, South Florida drivers trade in for “Lamborghini lanes.”
-<!--more-->
+"Lexus lanes" may have been too cheap for Miami. Saturday morning, South Florida drivers trade in for "Lamborghini lanes."
+
 The maximum possible toll on the 95 Express lanes increased from $7.00 to $10.50 — the mininum has doubled to 50 cents — in response to record numbers of motorists forking over what was thought to be a discouragingly high amount of money.
-
+<!--more-->
 “That day you paid seven bucks, we were trying to get you not to go there,” said Rory Santana, who oversees Miami-Dade County’s stretch of 95 Express for the Florida Department of Transportation.
 
 Indeed, the goal of the 95 Express’ dynamic tolling increase is simple: keep the fast lanes fast by limiting the number of motorists. That glowing toll amount has nothing to do with how good or how bad traffic is in the non-express lanes.
@@ -27,7 +29,7 @@ Part of the problem appears to be a phenomenon documented on Minnesota’s MnPAS
 
 FDOT is seeing evidence of the same thing, drivers assuming a higher toll means more time savings.
 
-[[“It’s not surprising in that it doesn’t make sense,” said Carlos Lora, 29, who regularly uses the northbound express lanes during peak travel times. It’s “surprising in that I was so wrong.”
+“It’s not surprising in that it doesn’t make sense,” said Carlos Lora, 29, who regularly uses the northbound express lanes during peak travel times. It’s “surprising in that I was so wrong.”
 
 Lora, who manages a condo building in South Beach and lives in Hollywood Beach with his wife and two Italian greyhounds, wondered why he kept getting stuck in congestion after paying $7.00. Although, he added, he was okay with it as long he was going faster than the cars to his right.
 

@@ -9,7 +9,7 @@
   <meta name="author" content="Kenny Malone & Christopher Peters">
 
   
-  <meta name="description" content="Snowbirding is an unavoidable pastime for year-round South Floridians. The more anecdotal leading indicators, of course, include a rise in out-of- &hellip;">
+  <meta name="description" content="Trying to Free Up 95 Express Kenny Malone Mar 1st, 2014 I-95 Express Lane &ldquo;Lexus lanes&rdquo; may have been too cheap for Miami. Saturday &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -27,6 +27,7 @@
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <script src="/javascripts/rssclient.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.rss.js" type="text/javascript"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
 <script src="/javascripts/foundation.js" type="text/javascript"></script>
 <script src="/javascripts/d3.min.js" type="text/javascript"></script>
@@ -72,28 +73,60 @@
   </section>
 </nav>
 
-  <div class="row">
-  <img src="/images/header_picture.jpg" />
-  <h1><a href="/">End of the Road</a></h1>
-  <h5><a href="/">A public analysis of Interstate 95</a></h5>
-  <hr/>
+  <div class="large-9 columns">
+  <a href="/"><img src="/images/header_picture.jpg" /></a>
 </div>
+
+<div class="large-3 columns">
+    <img src="/images/logo.png"  class="show-for-medium-up"></img>
+</div>
+
+<div class="large-12 columns">
+  <h1><a href="/">End of the Road</a></h1>
+  <h5><a href="/" style="color:#000000;">A public analysis of Interstate 95</a></h5>
+</div>
+<hr/>
 
 
   <div id="main">
     <div id="content" class="row">
         <div class="row"> 
-  <div class="large-6 columns end">
-      
-	<section>
+    <div class="large-8 columns end">
+	  <section>
     
     
     <div class="box">
     <h1 class="feature"><a href="/blog/2014/03/01/trying-to-free-up-95-express/">Trying to Free Up 95 Express</a></h1>
-    
-      <p><span class='caption-wrapper center'><img class='caption' src='http://i.imgur.com/8857mM3.jpg' width='' height='' title='I-95 Express Lane'><span class='caption-text'>I-95 Express Lane</span></span></p>
+    <h3>
+  
 
-<p>“Lexus lanes” may have been too cheap for Miami. Saturday morning, South Florida drivers trade in for “Lamborghini lanes.”</p>
+
+  
+  <a href="/kenny-malone/">Kenny Malone</a>
+  
+
+<span style="font-weight:100">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-01T13:32:21-05:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time></span></h3><br>
+    
+      <div class="large-8 large-centered columns">
+  <span class='caption-wrapper center'><img class='caption' src='http://i.imgur.com/8857mM3.jpg' width='' height='' title='I-95 Express Lane'><span class='caption-text'>I-95 Express Lane</span></span>
+</div>
+
+
+<p>&ldquo;Lexus lanes&rdquo; may have been too cheap for Miami. Saturday morning, South Florida drivers trade in for &ldquo;Lamborghini lanes.&rdquo;</p>
+
+<p>The maximum possible toll on the 95 Express lanes increased from $7.00 to $10.50 — the mininum has doubled to 50 cents — in response to record numbers of motorists forking over what was thought to be a discouragingly high amount of money.</p>
 
 
       
@@ -129,148 +162,21 @@
     
   </ul>
 </section>
-<div id="widget"></div>
+
+    </div>
+    <div class="large-4 columns end">
+	  <h1>WLRN News</h1> 
+<div id="rss-styled" class="well"></div>
 <script type="text/javascript">
-simpleAJAXLib = {
-      init: function () {
-	  this.fetchJSON('http://www.wlrn.org/rss.xml');
-      },
-
-      fetchJSON: function (url) {
-	  var root = 'https://query.yahooapis.com/v1/public/yql?q=';
-	  var yql = 'select * from xml where url="' + url + '"';
-	  var proxy_url = root + encodeURIComponent(yql) + '&format=json&diagnostics=false&callback=simpleAJAXLib.display';
-	  document.getElementsByTagName('body')[0].appendChild(this.jsTag(proxy_url));
-      },
-
-      jsTag: function (url) {
-	  var script = document.createElement('script');
-	  script.setAttribute('type', 'text/javascript');
-	  script.setAttribute('src', url);
-	  return script;
-      },
-
-      display: function (results) {
-	  // do the necessary stuff
-        return JSON.stringify(results.query.results);
-      }
-  }
-var tmp = simpleAJAXLib.init();
+  $("#rss-styled").rss("http://wlrn.org/feeds/term/61/rss.xml",
+    {
+      limit: 6,
+      layoutTemplate: '<dl class="dl-horizontal">{entries}</dl>',
+      entryTemplate: '<dt><a href="{url}">{title}</a></dt><dd>{author}</dd>'
+      }).show();
 </script>
 
-      
-  </div>
-    
-    
-    
-      <div class="medium-6 large-3 columns">
-      
-	
-  <header>
-    
-      <h2 class="entry-title"><a href="/blog/2014/02/10/snowbirding-on-i-95/">Snowbirding on I-95</a></h2>
-    
-    
-    <h3>
-  
-
-
-  
-  By <a href="/kenny-malone/">Kenny Malone</a>
-  
-
-<span style="font-weight:100">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-10T17:08:51-05:00" pubdate data-updated="true">Feb 10<span>th</span>, 2014</time></span></h3>
-      <p class="meta">
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img class="center" src="https://docs.google.com/a/miamiherald.com/spreadsheet/oimg?key=0AvRZhb8YZi9WdHJlX3pWMmZYaUhhcWFZR0loRV9RWEE&oid=2&zx=95uxkn1k0t9c"></p>
-
-<p>Snowbirding is an unavoidable pastime for year-round South Floridians. The more anecdotal leading indicators, of course, include a rise in out-of-state license plates, a disproportionate number of sunburns, a baffling spike in people asking the way to South Beach when they’re already on South Beach. (I’m partial to socks with sandals as the true bellwether.)</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/02/10/snowbirding-on-i-95/" style="color:#000000;font-weight:800;">Read on &rarr;</a>
-    </footer>
-    <hr>
-  
-
-
-      </div>
-    
-    
-    
-      <div class="medium-6 large-3 columns">
-      
-	
-  <header>
-    
-      <h2 class="entry-title"><a href="/blog/2014/02/10/the-commuter-a-diary/">The Commuter: A Diary</a></h2>
-    
-    
-    <h3>
-  
-
-
-  
-  By <a href="/kenny-malone/">Kenny Malone</a>
-  
-
-<span style="font-weight:100">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-10T17:00:59-05:00" pubdate data-updated="true">Feb 10<span>th</span>, 2014</time></span></h3>
-      <p class="meta">
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img class="center" src="http://i.imgur.com/PgYaqbs.jpg"></p>
-
-<p><strong>7:17 a.m.:</strong> The commuter sets a kitchen timer for 13 minutes. “Okay, countdown,” she says. “T-minus…”</p>
-
-<p>She slurps down a cup of coffee, looks wistfully at the carafe and says, “I never get around to that second cup.”</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/02/10/the-commuter-a-diary/" style="color:#000000;font-weight:800;">Read on &rarr;</a>
-    </footer>
-    <hr>
-  
-
-
-      </div>
-    
+    </div>
     
   </div>
   <div class="row">
@@ -298,16 +204,14 @@ var tmp = simpleAJAXLib.init();
     <div class="row">
       <div class="large-6 columns">
         <p>
-          Copyright &copy; 2014 - Kenny Malone & Christopher Peters
+	Copyright &copy; 2014 <a href="http://wlrn.org">WLRN</a> and <a href="http://statwonk.com">Christopher Peters</a>
         </p>
-	 <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
       </div>
       <div class="large-6 columns">
         <ul class="inline-list right">
-          <li><a href="#">About</a></li>
-	  <li><a href="#">WLRN</a></li>
-          <li><a href="#">Miami-Herald</a></li>
-          <li><a href="#">Statwonk</a></li>
+          <li><a href="/about">About</a></li>
+	  <li><a href="http://wlrn.org">WLRN</a></li>
+	  <li><a href="http://statwonk.com">Statwonk</a></li>
         </ul>
       </div>
     </div>

@@ -3,6 +3,7 @@
     {% if post.categories contains 'feature' %}
     <div class="box">
     <h1 class="feature"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+    <h3>{% include post/author.html %}<span style="font-weight:100">{% include post/date.html %}{{ time }}</span></h3><br>
     {% assign content = post.content %}
       {{ content | excerpt }}
       {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
