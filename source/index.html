@@ -4,13 +4,13 @@ layout: default
   <script src="{{ site.baseurl }}/javascripts/foundation.js"></script>
   <script src="{{ site.baseurl }}/javascripts/foundation.topbar.js"></script>
   <div class="row"> 
-    <div class="large-6 columns">
+    <div class="large-6 columns" style="padding-right: 0px;">
 	  {% include asides/feature.html  %}
     </div>
-		<div id="blog-archives" class="large-2 columns end">
+		<div id="blog-archives" class="large-2 columns end" style="padding-left: 0px;">
 		{% for post in site.posts reverse %}
 		<article>
-			<ul>
+			<ul style="list-style: none;">
 			  {% include archive_insert.html %}
 			</ul>
 		</article>
