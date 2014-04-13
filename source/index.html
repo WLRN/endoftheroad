@@ -4,9 +4,18 @@ layout: default
   <script src="{{ site.baseurl }}/javascripts/foundation.js"></script>
   <script src="{{ site.baseurl }}/javascripts/foundation.topbar.js"></script>
   <div class="row"> 
-    <div class="large-8 columns end">
+    <div class="large-6 columns">
 	  {% include asides/feature.html  %}
     </div>
+		<div id="blog-archives" class="large-2 columns end">
+		{% for post in site.posts reverse %}
+		<article>
+			<ul>
+			  {% include archive_insert.html %}
+			</ul>
+		</article>
+		{% endfor %}
+		</div>
     <div class="large-4 columns end">
       {% include asides/mailchimp.html %}
       <br>
