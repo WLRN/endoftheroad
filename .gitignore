@@ -3,3 +3,4 @@
 *.scssc
 *.sassc
 *.xml
+.bundle/*
