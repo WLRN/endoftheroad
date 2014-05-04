@@ -4,19 +4,21 @@ layout: default
   <script src="{{ site.baseurl }}/javascripts/foundation.js"></script>
   <script src="{{ site.baseurl }}/javascripts/foundation.topbar.js"></script>
   <div class="row"> 
-    <div class="large-6 columns" style="padding-right: 0px; padding-left: 30px;">
-	  {% include asides/feature.html  %}
-    </div>
-		<div id="blog-archives" class="large-2 columns" style="padding-left: 0px;">
-		<h4>Stories</h4>
+		<div id="blog-archives" class="large-2 columns" style="padding-left: 30px;">
 		{% for post in site.posts reverse %}
-		<article>
-			<ul id="archive-table" style="list-style: none; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;">
-			  {% include archive_insert.html %}
-			</ul>
-		</article>
+		{% if post.categories contains 'feature' %}
+		{% else %}
+		  <article>
+				<ul id="archive-table" style="list-style: none; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;">
+					{% include archive_insert.html %}
+				</ul>
+			</article>
+		{% endif %}
 		{% endfor %}
 		</div>
+    <div class="large-6 columns" style="padding-right: 0px; padding-left: 10px;">
+	    {% include asides/feature.html  %}
+    </div>
     <div class="large-4 columns end">
       {% include asides/mailchimp.html %}
       <br>
