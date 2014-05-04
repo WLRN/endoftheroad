@@ -16,6 +16,11 @@ h1.feature {
   font-weight:800;
 }
 
+#blog-archives h1 {
+  font-size:1.7rem;
+  font-weight:900;
+}
+
 .row {
   max-width: 85rem;
 }
@@ -34,8 +39,8 @@ $total-columns: 12 ;
 }
 .box {
   background: #fff;
-  margin: 0px 10px 20px 0px;
-  padding: 5px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
   position: relative;
   width: 100%;
 }
