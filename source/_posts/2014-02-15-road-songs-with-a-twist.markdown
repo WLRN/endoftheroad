@@ -9,10 +9,8 @@ categories:
 ---
 
 The classic American road song gets (at least) the PG-13 treatment when it's about I-95.
-
-{% imgcap center http://i.imgur.com/Ao3gZfa.jpg One of the 1,000 vinyl copies originally made of August Campbell's 'The I-95 Song.' Photo by Kenny Malone. Record courtesy of Kathy Heinly %}
-
 <!-- more -->
+{% imgcap center http://i.imgur.com/Ao3gZfa.jpg One of the 1,000 vinyl copies originally made of August Campbell's 'The I-95 Song.' Photo by Kenny Malone. Record courtesy of Kathy Heinly %}
 
 They write songs about roads: "[Route 66](http://www.dailymotion.com/video/x10415e_nat-king-cole-route-66)," "[Highway 61 Revisited](http://www.dailymotion.com/video/xmaciv_bob-dylan-highway-61-revisited_music)." Dusty, old roads with iconic signage that belongs on a pair of blue jeans.
 

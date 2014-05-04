@@ -6,10 +6,11 @@ date: 2014-02-15 10:46:12 -0500
 comments: true
 categories: 
 ---
+<!-- more -->
 {% img center http://i.imgur.com/hi3p8Sl.jpg %}
 
 Yesterday we explained how the Florida Highway Patrol has been getting flooded by complaints of [unchecked speed in the 95 Express lanes](/blog/2014/02/15/i-95-s-narrow-shoulders-and-speeding-cars-problematic-for-fhp/). (The story also ran in the [Miami Herald](http://www.miamiherald.com/2014/02/02/3909543/fhp-95-express-has-a-speeding.html) and on WLRN.)
-<!-- more -->
+
 In case there was any doubt that traffic stops occur, we present the case of Evan Benn.
 
 Benn, the Miami Herald’s new economy reporter, tweeted us the following confession today:

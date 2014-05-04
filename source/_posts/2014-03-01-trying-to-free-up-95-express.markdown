@@ -20,9 +20,10 @@ The maximum possible toll on the 95 Express lanes increased from $7.00 to $10.50
 Indeed, the goal of the 95 Express’ dynamic tolling increase is simple: keep the fast lanes fast by limiting the number of motorists. That glowing toll amount has nothing to do with how good or how bad traffic is in the non-express lanes.
 
 “If [the toll’s] seven dollars and everybody piles in [the express lanes],” said Santana, “we lost our opportunity to try and keep the spaces between the vehicles there and keep the speed up and keep the flow going... And if it breaks down, the general purpose lanes breaks down.”
-<!--more-->
+
 FDOT numbers show that the express lanes, of late, have failed to provide a reliably free-flowing trip during peak traffic hours, most notably the 4-7 p.m. northbound trip.
 
+<!--more-->
 Part of the problem appears to be a phenomenon documented on Minnesota’s MnPASS system, after which 95 Express is modeled. Engineers found that, up to a point, drivers are actually drawn to higher tolls.
 
 “And that’s surprising,” said David Levinson a professor of civil engineering at University of Minnesota and a study author. “Our hypothesis as to why that’s the case is that users of the system are using the posted price... as information about what the time savings is on the MnPASS lanes.”

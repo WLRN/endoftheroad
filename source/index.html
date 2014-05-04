@@ -5,18 +5,21 @@ layout: default
   <script src="{{ site.baseurl }}/javascripts/foundation.topbar.js"></script>
   <div class="row"> 
 		<div id="blog-archives" class="large-3 columns" style="padding-left:40px; border-right-style:solid; border-width:1px; padding-right:5px;">
+		{% assign posts_to_show = 6 %}
 		{% for post in site.posts reverse %}
 		{% if post.categories contains 'feature' %}
 		{% else %}
+		{% if forloop.index <= posts_to_show %}
 		  <article>
 				<ul id="archive-table" style="list-style: none; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;">
 					<h1>{% include archive_insert.html %}</h1>
 				</ul>
 			</article>
 		{% endif %}
+		{% endif %}
 		{% endfor %}
 		</div>
-    <div class="large-5 columns" style="padding-right: 5px; padding-left: 10px;">
+    <div class="large-5 columns" style="padding-right: 5px; padding-left: 15px;">
 	    {% include asides/feature.html  %}
     </div>
     <div class="large-4 columns end" style="padding-right: 30px;">
@@ -26,36 +29,6 @@ layout: default
       {% include asides/feed_widget.html  %}
     </div>
     {% assign index = true %}
-  </div>
-  <div class="row">
-    {% for post in paginator.posts offset: 3 limit: 3 %}
-    {% unless post.categories contains 'feature' %}
-      <div class="small-12 medium-4 columns">
-      {% assign content = post.content %}
-	{% include article.html %}
-      </div>
-    {% endunless %}
-    {% endfor %}
-  </div>
-  <div class="row">
-    {% for post in paginator.posts offset: 6 limit: 3 %}
-    {% unless post.categories contains 'feature' %}
-      <div class="small-12 medium-4 columns">
-      {% assign content = post.content %}
-	{% include article.html %}
-      </div>
-    {% endunless %}
-    {% endfor %}
-  </div>
-  <div class="row">
-    {% for post in paginator.posts offset: 9 limit: 3 %}
-    {% unless post.categories contains 'feature' %}
-      <div class="small-12 medium-4 columns">
-      {% assign content = post.content %}
-	{% include article.html %}
-      </div>
-    {% endunless %}
-    {% endfor %}
   </div>
   <div class="pagination">
     {% if paginator.next_page %}
